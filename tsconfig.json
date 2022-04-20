@@ -2,7 +2,8 @@
     "compilerOptions": {
         "outDir": "dist/js", // Pasta para onde o arquivo vai
         "target": "ES6",
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        "noImplicitAny": true
     },
     "include": [
         "app/**/*" // Pasta que terá os arquivos lidos p/compilar
